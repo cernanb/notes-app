@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <title>Notes App</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Note App</h1>
+    <div id="new-note-container">
+      <form id="new-note-form">
+        <input type="text" name="note-body" id="new-note-body">
+        <input type="submit" value="Save note">
+      </form>
+    </div>
+    <div id="notes-content">
+      <ul id="notes-container">
+
+      </ul>
+      <div id="note-show">
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <script type="text/javascript" src="src/components/note.js"></script>
+  <script src="src/components/notes.js"></script>
+  <script src="src/components/app.js"></script>
+  <script src="src/adapters/NotesAdapter.js"></script>
+  <script src="src/index.js"></script>
+</body>
+
+</html>
